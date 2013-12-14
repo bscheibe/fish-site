@@ -1,0 +1,25 @@
+Options +FollowSymlinks
+RewriteEngine on
+rewritecond %{http_host} ^verdugosbeachresort.com [nc]
+rewriterule ^(.*)$ http://www.verdugosbeachresort.com/$1 [r=301,nc]
+RewriteRule \.inc$ index.php [L]
+RewriteRule (.*)\.html$ $1.php [L]
+
+#rewritecond %{http_host} ^verdugosbeachresort.com [nc]
+#rewriterule ^(.*)$ http://www.verdugosbeachresort.com/$1 [r=301,nc]
+
+
+redirect 301 /pages/about_us.html http://www.verdugosbeachresort.com/contact.html
+redirect 301 /pages/photos.html http://www.verdugosbeachresort.com/photos.html
+redirect 301 /pages/rates.html http://www.verdugosbeachresort.com/rooms.html
+redirect 301 /pages/activities.html http://www.verdugosbeachresort.com/activities.html
+redirect 301 /pages/location.html http://www.verdugosbeachresort.com/contact.html
+redirect 301 /pages/contact.html http://www.verdugosbeachresort.com/contact.html
+redirect 301 /pages/sportfishing.html http://www.verdugosbeachresort.com/fishing_packages.html
+redirect 301 /pages/windsurf.html http://www.verdugosbeachresort.com/wind_surfing.html
+redirect 301 /pages/rates.html http://www.verdugosbeachresort.com/rooms.html
+redirect 301 /pages/fish_license.html http://www.verdugosbeachresort.com/packages.html
+redirect 301 /pages/camp.html http://www.verdugosbeachresort.com/rooms.html
+redirect 301 /packages.html http://www.verdugosbeachresort.com/fishing_packages.html
+
+#IndexIgnore *

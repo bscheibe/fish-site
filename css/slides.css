@@ -1,0 +1,71 @@
+#slides {
+  width: 530px; /*336*/
+  position: relative;
+}
+#slides .slides_container {
+  width: 500px; /*306*/
+  border: 15px solid #152b4d;
+  background: url(../images/bg.jpg) -600px -600px no-repeat;
+}
+#slides .slides_container .slides_control div {
+  width: 500px;
+}
+#slides .slides_container h1 {
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 13px;
+  background: rgb(21, 43, 77);
+}
+#slides .slides_container .slides_control img {
+  width: 500px; /*306*/
+  height: 333px; /*299*/
+}
+
+#slides a.prev,
+#slides a.next {
+  top: 190px; /*140*/
+  width: 26px; /* image width: 34 */
+  height: 47px;
+  display: block;
+  position: absolute;
+  font-size: 0;
+}
+#slides a.prev {
+  left: 0;
+  background: url(../images/carousel-prev.png) 0 -1px no-repeat;
+}
+#slides a.next {
+  right: 0;
+  background: url(../images/carousel-next.png) -8px -1px no-repeat;
+}
+#slides a.prev:hover {
+  background-position: 0 -50px;
+}
+#slides a.next:hover {
+  background-position: -8px -50px;
+}
+
+#slides .pagination {
+  text-align: center;
+}
+#slides .pagination li {
+  display: inline;
+}
+#slides .pagination li a:link,
+#slides .pagination li a:active,
+#slides .pagination li a:visited {
+  color: #3a3a6a;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 5px;
+}
+#slides .pagination li.current a {
+  color: #FFFFFF;
+  background: #3a3a6a;
+}
+#slides .pagination li a:hover {
+  color: #FFFFFF;
+  background: #3a3a9a;
+}

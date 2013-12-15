@@ -14,19 +14,19 @@
               </div>
             </fieldset>
           </form>
-        </div>
-        <a class="open" href="#modal">Menu</a>
+        </div><a class="open" href="#modal">Menu</a>
         <div id="modal">
           <ul id="nav">
-              <li class="slider_link"><a href="index.php">HOTEL</a></li>
-              <li class="slider_link"><a href="rooms.php">ROOMS</a></li>
-              <li class="slider_link"><a href="fishing_packages.php">FISHING PACKAGES</a></li>
-              <li class="slider_link"><a href="wind_surfing.php">WINDSURFING</a></li>
-              <li class="slider_link"><a href="activities.php">ACTIVITIES</a></li>
-              <li class="slider_link"><a href="maps.php">MAP</a></li>
-              <li class="slider_link"><a href="photos.php">PHOTOS</a></li>
-              <li class="slider_link"><a href="http://reports.verdugosbeachresort.com">REPORTS</a></li>
-              <li class="slider_link"><a href="contact.php">CONTACT</a></li>
+              <a href="javascript:$.pageslide.close()"><li class="no_highlight"><div class="header_menu">Menu &gt;&gt;</div></li></a>
+              <a href="index.php"><li><div class="text_link">HOTEL</div></li></a>
+              <a href="rooms.php"><li><div class="text_link">ROOMS</div></li></a>
+              <a href="fishing_packages.php"><li><div class="text_link">FISHING PACKAGES</div></li></a>
+              <a href="wind_surfing.php"><li><div class="text_link">WINDSURFING</div></li></a>
+              <a href="activities.php"><li><div class="text_link">ACTIVITIES</div></li></a>
+              <a href="maps.php"><li><div class="text_link">MAP</div></li></a>
+              <a href="photos.php"><li><div class="text_link">PHOTOS</div></li></a>
+              <a href="http://reports.verdugosbeachresort.com"><li><div class="text_link">REPORTS</div></li></a>
+              <a href="contact.php"><li><div class="text_link">CONTACT</div></li></a>
           </ul>
         </div>
     <div class="container_24">

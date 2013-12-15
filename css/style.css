@@ -639,9 +639,10 @@ footer {
     /* These styles are optional, and describe how the pageslide will look */
     background: url(../images/menu_bg.png) repeat top left #237dd1;
     color: #FFF;
-    -webkit-box-shadow: inset -10px 0px 5px -2px #1261ac;
+    border-right: 7px solid #000;
+    /*-webkit-box-shadow: inset -10px 0px 5px -2px #1261ac;
     -moz-shadow: inset -10px 0px 5px -2px #1261ac;
-    box-shadow: inset -10px 0px 5px -2px #1261ac;
+    box-shadow: inset -10px 0px 5px -2px #1261ac;*/
     //border-top:5px solid #162d50;
     font-weight: 500;
 }
@@ -656,33 +657,47 @@ footer {
 #pageslide li {
   border-bottom: 1px solid #1261ac;
   text-decoration: none;
-  padding: 0 0 0 0;
+  padding: 0.75em 0 1em 0 !important;
   margin: 0 0 0 0;
+  font-weight: 500;
 }
 
 #pageslide a {
 	text-decoration: none;
+	color: #fff;
 }
 
-.slider_link {
-  	width:100%;
-  	padding: 0.25em 0.5em 0.25em 1.5em;
-  	margin: 0 0 0 0;
-  	font-weight: 700;
+.text_link {
+	margin-left: 2em; 
 }
 
-.slider_link {
-  	width:100%;
-  	padding: 0.25em 0.5em 0.25em 1em;
-  	margin: 0 0 0 0;
-  	font-weight: 700;
-}
-
-.slider_link:hover {
+#pageslide li:hover {
 	background-color: #2e87dc;
-	-webkit-box-shadow: inset -10px 0px 5px -2px #1261ac;
+	/*-webkit-box-shadow: inset -10px 0px 5px -2px #1261ac;
     -moz-shadow: inset -10px 0px 5px -2px #1261ac;
-    box-shadow: inset -10px 0px 5px -2px #1261ac;
+    box-shadow: inset -10px 0px 5px -2px #1261ac;*/
+}
+
+.header_menu {
+	margin-left: 1em; 
+}
+
+.no_highlight {
+	background: #dc9261;
+			background: -moz-linear-gradient(#414141, #262626);
+			background: -webkit-linear-gradient(#414141, #262626);
+			background: -o-linear-gradient(#414141, #262626);
+			background: -ms-linear-gradient(#414141, #262626);
+			background: linear-gradient(to bottom,  #414141, #262626);  
+}
+
+.no_highlight:hover {
+	background: #dc9261;
+			background: -moz-linear-gradient(#616060, #414141);
+			background: -webkit-linear-gradient(#616060, #414141);
+			background: -o-linear-gradient(#616060, #414141);
+			background: -ms-linear-gradient(#616060, #414141);
+			background: linear-gradient(to bottom,  #616060, #414141);  
 }
 
 .open {
@@ -698,6 +713,8 @@ footer {
     box-shadow: inset 0 0 3px #000;
     text-indent: -999999px;
     border: 0;
+    position: absolute;
+    top: 7%;
 }
 
 #modal {
@@ -723,6 +740,17 @@ footer {
 	}
 	.open {
     	display: inline-block;
+    }
+    .menu {
+    	display: none;
+    }
+    .suf {
+    	display: none;
+    }
+    .container_24 {
+    	width: 300px !important;
+    	margin-left: auto !important;
+    	margin-right: auto !important;
     }
 	/*.logo {
 		font-size:30px !important;

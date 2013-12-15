@@ -32,7 +32,7 @@
           <div class="wrapper">
             <div class="grid_24">
               <div class="indent">
-                Martin Verdugo &copy; 2011 &nbsp;:&nbsp; Located in <a class="link-2" href="los_barriles.php">Los Barriles,</a> Baja California Sur, Mexico -- <a class="link-2" href="contact.html">Contact Us</a></div>
+                Martin Verdugo &copy; 2014 &nbsp;:&nbsp; Located in <a class="link-2" href="los_barriles.php">Los Barriles,</a> Baja California Sur, Mexico -- <a class="link-2" href="contact.html">Contact Us</a></div>
             </div>
           </div>
         </div>

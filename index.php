@@ -59,7 +59,12 @@ $keywords = "Los Barriles, los barriles hotel, fishing, marlin, rooster fish, wa
   </section>
   <!-- footer -->
   <?php include 'footer.inc'; ?>
+  <!-- footer script -->
   <script type="text/javascript"> Cufon.now(); </script>
+  <script src="js/jquery.pageslide.min.js"></script>
+  <script>
+      $(".open").pageslide({ direction: "right", modal: true });
+  </script>
 </body>
 <?php print '</html>'; ?>
 

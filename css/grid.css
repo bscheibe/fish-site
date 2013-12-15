@@ -588,3 +588,28 @@
 .clearfix {
 	display: block;
 }
+
+.center {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+@media only screen and (max-width: 1000px) {
+	/*.grid_18 {
+		width: 580px !important;
+	}*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

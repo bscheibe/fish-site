@@ -204,6 +204,7 @@ h1 {
 		height:100%;
 		overflow:hidden;
 	}
+
 .angle-left {
 	width:20px;
 	height:20px;
@@ -605,3 +606,147 @@ footer {
 		.pagination .current a {
 			color:red;
 		}
+
+.web_title {
+	width: 600px;
+	margin-right: 0;
+	margin-left: 1.5em;
+	margin-bottom: 0.65em;
+	display: inline-block;
+}
+
+.search_bar {
+	width: 250px;
+	margin-left: 0;
+	height: 100px;
+	margin-left: 8.95em;
+	display: inline-block;
+}
+
+#pageslide {
+    /* These styles MUST be included. Do not change. */
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    
+    /* Specify the width of your pageslide here */
+    width: 260px;
+    padding: 0;
+    
+    /* These styles are optional, and describe how the pageslide will look */
+    background: url(../images/menu_bg.png) repeat top left #237dd1;
+    color: #FFF;
+    -webkit-box-shadow: inset -10px 0px 5px -2px #1261ac;
+    -moz-shadow: inset -10px 0px 5px -2px #1261ac;
+    box-shadow: inset -10px 0px 5px -2px #1261ac;
+    //border-top:5px solid #162d50;
+    font-weight: 500;
+}
+
+#pageslide ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+#pageslide li {
+  border-bottom: 1px solid #1261ac;
+  text-decoration: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+#pageslide a {
+	text-decoration: none;
+}
+
+.slider_link {
+  	width:100%;
+  	padding: 0.25em 0.5em 0.25em 1.5em;
+  	margin: 0 0 0 0;
+  	font-weight: 700;
+}
+
+.slider_link {
+  	width:100%;
+  	padding: 0.25em 0.5em 0.25em 1em;
+  	margin: 0 0 0 0;
+  	font-weight: 700;
+}
+
+.slider_link:hover {
+	background-color: #2e87dc;
+	-webkit-box-shadow: inset -10px 0px 5px -2px #1261ac;
+    -moz-shadow: inset -10px 0px 5px -2px #1261ac;
+    box-shadow: inset -10px 0px 5px -2px #1261ac;
+}
+
+.open {
+    display: none;
+    float: left;
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+    background: url(../images/menu.png) center center no-repeat #2a86dd;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -border-radius: 8px;
+    box-shadow: inset 0 0 3px #000;
+    text-indent: -999999px;
+    border: 0;
+}
+
+#modal {
+	display: none;
+}
+
+/*------ Breakpoint #1 for Website ------*/
+@media only screen and (max-width: 1000px) {
+	.carousel {
+		width:630px;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	.jCarouselLite {
+		width:625px !important;
+	}
+	.search_bar {
+		display: none;
+	}
+	.web_title {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.open {
+    	display: inline-block;
+    }
+	/*.logo {
+		font-size:30px !important;
+		line-height:0.8em;
+	}*/
+	/*.cufon-canvas {
+		height: 30px !important;
+	}
+	.cufon {
+		height: 30px !important;
+	}*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

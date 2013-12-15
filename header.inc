@@ -1,13 +1,11 @@
 <header>
   <div class="main">
-    <div class="container_24">
-      <div class="wrapper p1">
-        <div class="grid_18">
+        <div class="web_title">
           <h1>
             <a class="logo" href="index.html">Martin Verdugo's Beach Resort</a>
           </h1>
         </div>
-        <div class="grid_6">
+        <div class="search_bar">
           <form id="search-form" action="" method="post" enctype="multipart/form-data">
             <fieldset>
               <div class="wrapper">
@@ -17,7 +15,21 @@
             </fieldset>
           </form>
         </div>
-      </div>
+        <a class="open" href="#modal">Menu</a>
+        <div id="modal">
+          <ul id="nav">
+              <li class="slider_link"><a href="index.php">HOTEL</a></li>
+              <li class="slider_link"><a href="rooms.php">ROOMS</a></li>
+              <li class="slider_link"><a href="fishing_packages.php">FISHING PACKAGES</a></li>
+              <li class="slider_link"><a href="wind_surfing.php">WINDSURFING</a></li>
+              <li class="slider_link"><a href="activities.php">ACTIVITIES</a></li>
+              <li class="slider_link"><a href="maps.php">MAP</a></li>
+              <li class="slider_link"><a href="photos.php">PHOTOS</a></li>
+              <li class="slider_link"><a href="http://reports.verdugosbeachresort.com">REPORTS</a></li>
+              <li class="slider_link"><a href="contact.php">CONTACT</a></li>
+          </ul>
+        </div>
+    <div class="container_24">
       <div class="grid_24">
         <?php include 'main-menu.inc'; ?>
       </div>

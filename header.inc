@@ -3,6 +3,7 @@
         <div class="web_title">
           <h1>
             <a class="logo" href="index.html">Martin Verdugo's Beach Resort</a>
+            <!--<a class="title_logo" href="index.html">Martin Verdugo's Beach Resort</a>-->
           </h1>
         </div>
         <div class="search_bar">
@@ -14,7 +15,11 @@
               </div>
             </fieldset>
           </form>
-        </div><a class="open" href="#modal">Menu</a>
+        </div>
+        <div class="s_web_title">
+          <a class="title_logo" href="index.html">Martin Verdugo's Beach Resort</a>
+          <a class="open" href="#modal">Menu</a>
+        </div>
         <div id="modal">
           <ul id="nav">
               <a href="javascript:$.pageslide.close()"><li class="no_highlight"><div class="header_menu">Menu &gt;&gt;</div></li></a>

@@ -3,20 +3,31 @@ article, aside, audio, canvas, command, datalist, details, embed, figcaption, fi
 mark, rp, rt, ruby, summary, time {display:inline;}
 
 /* Global properties ======================================================== */
+@font-face {
+    font-family: 'james_fajardoregular';
+    src: url('/css/james_fajardo-webfont.eot');
+    src: url('/css/james_fajardo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/css/james_fajardo-webfont.woff') format('woff'),
+         url('/css/james_fajardo-webfont.ttf') format('truetype'),
+         url('/css/james_fajardo-webfont.svg#james_fajardoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {width:100%;}
 
 body { 	 
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:100%; 
 	color:#3a3a3a;
-	min-width:990px;
 	border-top:5px solid #162d50;
 	background:url(../images/bg.jpg) center 0 no-repeat #1a62a5;
 }
 
 .bg {
 	width:950px; 
-	margin:0 auto;
+	margin:0 auto 0 auto;
 	padding:45px 0 28px;
 	background:#fcfcfc;
 }
@@ -30,7 +41,7 @@ body {
 .main {
 	width:990px; 	
 	padding:0;
-	margin:0 auto;
+	margin:0 auto 0 auto;
 	font-size:0.8125em;
 	line-height:1.538em;
 }
@@ -105,11 +116,11 @@ p {margin-bottom:18px;}
 .list-1 li a,
 .list-2 li a,
 .link, .link-1, .link-2, .link-3, .link-4,
+.title_logo {text-decoration:none;}	
 .logo {text-decoration:none;}	
 
 /*********************************header*************************************/
 header {
-	min-height:500px; 
 	width:100%;
 	position:relative; 
 	z-index:2;
@@ -120,12 +131,25 @@ h1 {
 	margin:0 0 0 -2px;
 	position:relative;
 }
-.logo {
-	display:inline-block; 
-	font-size:80px;
+
+.title_logo {
+	display:none; 
+	font-size: 80px;
+	font-family: 'james_fajardoregular';
 	line-height:1.2em;
 	color:#fcfcfc;
+	font-weight: 100 !important;
+	-webkit-text-stroke: 0.35px;
 }
+
+.logo {
+	display: inline-block; 
+	font-size: 80px;
+	color:#fcfcfc;
+	margin-top: 0.18em;
+	margin-bottom: 0.03em;
+}
+
 #search-form {
 	padding-top:42px; 
 	overflow:hidden;
@@ -615,6 +639,14 @@ footer {
 	display: inline-block;
 }
 
+.s_web_title {
+	width: 600px;
+	margin-right: 0;
+	margin-left: 1.5em;
+	margin-bottom: 0.65em;
+	display: none;
+}
+
 .search_bar {
 	width: 250px;
 	margin-left: 0;
@@ -702,10 +734,10 @@ footer {
 
 .open {
     display: none;
-    float: left;
+    /*float: left;*/
     width: 40px;
     height: 30px;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
     background: url(../images/menu.png) center center no-repeat #2a86dd;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -713,8 +745,9 @@ footer {
     box-shadow: inset 0 0 3px #000;
     text-indent: -999999px;
     border: 0;
-    position: absolute;
-    top: 7%;
+    /*position: absolute;*/
+    margin-top: 1em;
+    margin-left: 5em;
 }
 
 #modal {
@@ -730,6 +763,8 @@ footer {
 	}
 	.jCarouselLite {
 		width:625px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
 	}
 	.search_bar {
 		display: none;
@@ -748,14 +783,53 @@ footer {
     	display: none;
     }
     .container_24 {
-    	width: 300px !important;
-    	margin-left: auto !important;
-    	margin-right: auto !important;
+    	width: 100% !important;
+    	/*margin-left: auto !important;
+    	margin-right: auto !important;*/
     }
-	/*.logo {
-		font-size:30px !important;
-		line-height:0.8em;
+	.logo {
+		display: none;
+	}
+	.title_logo {
+		display: inline-block;
+		font-size: 50px;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		text-align: center;
+	}
+	/*.web_title {
+		width: 50% !important;
+		display: inline-block;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
 	}*/
+	.main {
+		width: 660px !important; 	
+	}
+	.web_title {
+		display: none;
+	}
+	.s_web_title {
+		border: 1px solid black;
+		width: 475px !important;
+		display: inline-block;
+		margin: 0.5em auto 0.5em auto !important;
+		padding: 0 0 0 0;
+	}
+	.bg {
+	width:640px; 
+	margin:0 auto 0 auto;
+	padding:45px 0 28px;
+	background:#fcfcfc;
+	}
+	.bg-2 {
+	width:640px; 
+	margin:0 auto 0 auto;
+	background:#fcfcfc;
+	}
+	.wrapper {
+		width: 600px !important;
+	}
 	/*.cufon-canvas {
 		height: 30px !important;
 	}

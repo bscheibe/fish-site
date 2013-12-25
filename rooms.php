@@ -58,7 +58,7 @@ $keywords = "Los Barriles, los barriles hotel, east cape hotel rooms, fishing ma
   <!-- footer -->
   <?php include 'footer.inc'; ?>
   <script type="text/javascript"> Cufon.now(); </script>
-  <script src="js/jquery.pageslide.min.js"></script>
+  <script src="/js/jquery.pageslide.min.js"></script>
   <script>
       $(".open").pageslide({ direction: "right", modal: true });
   </script>

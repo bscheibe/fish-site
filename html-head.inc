@@ -12,20 +12,20 @@
     <meta name="description" content="<?php print $description; ?>" />
     <meta name="keywords" content="<?php print $keywords; ?>">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/menu-style.css" type="text/css" media="screen">
-    <script type="text/javascript" src="js/jquery-1.4.4.js"></script>
-    <script type="text/javascript" src="js/cufon-yui.js"></script>
-    <script type="text/javascript" src="js/cufon-replace.js"></script>
-    <script type="text/javascript" src="js/James_Fajardo_400.font.js"></script>
-    <script type="text/javascript" src="js/Franklin_Gothic_Medium_400.font.js"></script>
-    <script type="text/javascript" src="js/superfish.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/jcarousellite_1.0.1.js"></script>
-    <script type="text/javascript" src="js/easyTooltip.js"></script>
+    <link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/css/grid.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/css/menu-style.css" type="text/css" media="screen">
+    <script type="text/javascript" src="/js/jquery-1.4.4.js"></script>
+    <script type="text/javascript" src="/js/cufon-yui.js"></script>
+    <script type="text/javascript" src="/js/cufon-replace.js"></script>
+    <script type="text/javascript" src="/js/James_Fajardo_400.font.js"></script>
+    <script type="text/javascript" src="/js/Franklin_Gothic_Medium_400.font.js"></script>
+    <script type="text/javascript" src="/js/superfish.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+    <script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/js/jcarousellite_1.0.1.js"></script>
+    <script type="text/javascript" src="/js/easyTooltip.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $(".list-services a.tooltips").easyTooltip();
@@ -61,9 +61,9 @@
 
     <!-- includes for the photos page -->
     <?php if ($name == 'photos') { ?>
-      <script type="text/javascript" src="js/slides.min.jquery.js"></script>
-      <link rel="stylesheet" type="text/css" media="screen" href="css/slides.css">
-      <script type="text/javascript" src="js/slides.js"></script>
+      <script type="text/javascript" src="/js/slides.min.jquery.js"></script>
+      <link rel="stylesheet" type="text/css" media="screen" href="/css/slides.css">
+      <script type="text/javascript" src="/js/slides.js"></script>
     <?php } ?>
 
     <script type="text/javascript">

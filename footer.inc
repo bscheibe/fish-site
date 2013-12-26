@@ -2,7 +2,7 @@
   <div class="main">
     <div class="row-1">
       <div class="container_24">
-        <div class="wrapper">
+        <div class="wrapper_bottom">
           <div class="grid_16">
             <ul class="list-services">
               <li><a class="tooltips" title="Facebook" href="#"><img src="images/facebook.png" alt=""/></a></li>

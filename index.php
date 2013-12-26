@@ -16,7 +16,7 @@ $keywords = "Los Barriles, los barriles hotel, fishing, marlin, rooster fish, wa
             <article class="grid_16 alpha">
               <div class="pref">
                 <h2><strong>Welcome</strong> to Martin Verdugo's Beach Resort!</h2>
-
+                <!--<h3><strong>Welcome</strong> to Martin Verdugo's Beach Resort!</h3>-->
                 <div class="wrapper img-indent-bot">
                   <figure class="img-indent frame"><img src="images/page1-hotel.jpg" alt=""/></figure>
                   <div class="extra-wrap">

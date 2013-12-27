@@ -55,6 +55,7 @@ a:hover {text-decoration:none;}
 
 .wrapper {width:100%; overflow:hidden;}
 .wrapper_bottom {width:100%; overflow:hidden;}
+.wrapper_middle {width:100%; overflow:hidden;}
 .extra-wrap {overflow:hidden;}
  
 p {margin-bottom:18px;}
@@ -845,6 +846,9 @@ footer {
 	.wrapper {
 		width: 600px !important;
 	}
+	.wrapper_middle {
+		width: 600px !important;
+	}
 	.wrapper_bottom {
 		width: 660px !important;
 		margin: 0 0 0 0 !important;
@@ -875,9 +879,136 @@ footer {
 	}*/
 }
 
+/*------ Breakpoint #2 for Website ------*/
+@media only screen and (max-width: 690px) {
+	.carousel {
+		width:308px;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	.jCarouselLite {
+		width:308px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	.menu {
+		display: none;
+	}
+	.title_logo {
+		font-size: 55px;
+	}
+	.open {
+    	margin: 1em 0 0 3em !important;
+    }
+    .main {
+		width: 500px !important; 	
+	}
+	.grid_16 {
+    	width: 170px !important;
+    	margin: 0 0 0 0 !important;
+    }
+    .grid_8 {
+    	width: 300px !important;
+    	margin: 0 0 0 2.5em !important;
+    }
+    .wrapper_bottom {
+		width: 500px !important;
+		margin: 0 0 0 0 !important;
+		padding: 0 0 0 0 !important;
+	}
+	.s_web_title {
+		width: 480px !important;
+	}
+	.img-indent {
+		margin: 0 0 1.5em 4em !important;
+	}
+	h2 {
+		width: 300px !important;
+		margin-left: 1.25em;
+	}
+	.bg {
+	width:400px; 
+	margin:3em auto 0 auto;
+	padding:25px 0 0;
+	background:#fcfcfc;
+	}
+	.bg-2 {
+	width:400px; 
+	margin:0 auto 0 auto;
+	background:#fcfcfc;
+	}
+	.extra-wrap {
+		width: 250px !important;
+		display: block !important;
+		margin: 0 0 0 4em !important;
+	}
+	.wrapper {
+		width: 400px !important;
+	}
+	.wrapper_middle {
+		width: 225px !important;
+		display: block !important;
+		margin-left: 4em !important;
+	}
+	.grid_6 {
+		margin-left: 0 !important;
+	}
+	.grid_24 {
+		/* 523 */
+		width: 308px !important;
+	}
+}
 
-
-
+/*------ Breakpoint #3 for Website ------*/
+@media only screen and (max-width: 505px) {
+	.main {
+		width: 380px !important; 	
+	}
+	.title_logo {
+		font-size: 40px;
+	}
+	.open {
+		width: 40px !important;
+		height: 30px !important;
+    	margin: 0.5em 0 0 3em !important;
+    }
+	.row-1 {
+		display: none;
+	}
+	.grid_16 {
+    	width: 170px !important;
+    	margin: 0 0 0 0 !important;
+    }
+    .grid_8 {
+    	width: 300px !important;
+    	margin: 0 0 0 2.5em !important;
+    }
+    .wrapper_bottom {
+		width: 500px !important;
+		margin: 0 0 0 0 !important;
+		padding: 0 0 0 0 !important;
+	}
+	.s_web_title {
+		width: 365px !important;
+	}
+	.bg {
+	width:315px; 
+	margin:0 auto 0 auto;
+	padding:25px 0 0;
+	background:#fcfcfc;
+	}
+	.bg-2 {
+	width:315px; 
+	margin:0 auto 0 auto;
+	background:#fcfcfc;
+	}
+	.extra-wrap {
+		width: 200px !important;
+	}
+	.wrapper {
+		width: 300px !important;
+	}
+}
 
 
 

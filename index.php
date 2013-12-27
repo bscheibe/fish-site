@@ -26,7 +26,7 @@ $keywords = "Los Barriles, los barriles hotel, fishing, marlin, rooster fish, wa
                     <p>All rooms are modern and air conditioned with some rooms having refrigerators and kitchenettes. The hotel has its own fishing fleet of 28ft Super Cruisers, and smaller Super Pangas.
                   </div>
                 </div>
-                <div class="wrapper border-bot p3">
+                <div class="wrapper_middle border-bot p3">
                   <div class="grid_7 alpha suffix_1">
                     <ul class="list-1">
                       <li><a href="#">Located right on the beach!</a></li>

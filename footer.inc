@@ -28,7 +28,7 @@
     </div>
     <div class="row-2">
       <div class="container_24">
-        <div class="bg">
+        <div class="bg_bottom">
           <div class="wrapper">
             <div class="grid_24">
               <div class="indent">

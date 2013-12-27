@@ -31,6 +31,12 @@ body {
 	padding:45px 0 28px;
 	background:#fcfcfc;
 }
+.bg_bottom {
+	width:950px; 
+	margin:0 auto 0 auto;
+	padding:45px 0 28px;
+	background:#fcfcfc;
+}
 .bg-2 {
 	width:950px; 
 	margin:0 auto;
@@ -835,6 +841,12 @@ footer {
 	padding:25px 0 0;
 	background:#fcfcfc;
 	}
+	.bg_bottom {
+	width:620px; 
+	margin:0 auto 0 auto;
+	padding:25px 0 0;
+	background:#fcfcfc;
+	}
 	.bg-2 {
 	width:640px; 
 	margin:0 auto 0 auto;
@@ -929,13 +941,16 @@ footer {
 	.bg {
 	width:400px; 
 	margin:3em auto 0 auto;
-	padding:25px 0 0;
-	background:#fcfcfc;
+	}
+	.bg_bottom {
+	width:400px; 
+	margin:0 auto 0 auto;
+	padding-bottom: 1em !important;
+	padding-top: 1em !important;
 	}
 	.bg-2 {
 	width:400px; 
 	margin:0 auto 0 auto;
-	background:#fcfcfc;
 	}
 	.extra-wrap {
 		width: 250px !important;
@@ -956,6 +971,12 @@ footer {
 	.grid_24 {
 		/* 523 */
 		width: 308px !important;
+	}
+	.head_1 {
+		width: 250px !important;
+	}
+	.head_2 {
+		width: 300px !important;
 	}
 }
 

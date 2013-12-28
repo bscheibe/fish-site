@@ -22,7 +22,7 @@
         </div>
         <div id="modal">
           <ul id="nav">
-              <a href="javascript:$.pageslide.close()"><li class="no_highlight"><div class="header_menu">Menu &gt;&gt;</div></li></a>
+              <a href="javascript:$.pageslide.close()"><li class="no_highlight"><div class="header_menu">Close Menu &gt;&gt;</div></li></a>
               <a href="index.php"><li><div class="text_link">HOTEL</div></li></a>
               <a href="rooms.php"><li><div class="text_link">ROOMS</div></li></a>
               <a href="fishing_packages.php"><li><div class="text_link">FISHING PACKAGES</div></li></a>

@@ -854,6 +854,14 @@ footer {
 	display: none;
 }
 
+.second_pics {
+	display: none;
+}
+
+.third_pics {
+	display: none;
+}
+
 /*------ Breakpoint #0 for Website ------*/
 
 
@@ -1185,11 +1193,33 @@ footer {
 		width: auto;
 		margin-left: 2.5em !important;
 	}
+	.fun_pics {
+		width: auto;
+		margin-left: 3em !important;
+	}
 	.second_yes {
 		display: block;
 	}
+	.second_no {
+		display: none !important;
+	}
 	.head_fish_sm {
 		text-align: center;
+	}
+	.second_pics {
+		display: block !important;
+	}
+	.second_pics h1 {
+		width: 220px !important;
+		font-size: 1.5em !important;
+		margin-bottom: 1em !important;
+		text-transform:uppercase;
+		text-align: center;
+		margin-left: 4em !important;
+	}
+	.second_pics img {
+		margin-bottom: 1.5em !important;
+		border: 3px outset #ccc;
 	}
 }
 
@@ -1197,6 +1227,24 @@ footer {
 @media only screen and (max-width: 505px) {
 	.no_third {
 		display: none !important;
+	}
+	.second_pics {
+		display: none !important;
+	}
+	.third_pics {
+		display: block !important;
+	}
+	.third_pics h1 {
+		width: 220px !important;
+		font-size: 1.5em !important;
+		margin-bottom: 1em !important;
+		text-transform:uppercase;
+		text-align: center;
+		margin-left: 1.25em !important;
+	}
+	.third_pics img {
+		margin-bottom: 1.5em !important;
+		border: 3px outset #ccc;
 	}
 	.pic_wrapper {
 		margin-left: 3em !important;
@@ -1384,6 +1432,10 @@ footer {
 	}
 	.head_fish_sm {
 		width: 280px !important;
+	}
+	.fun_pics {
+		width: auto;
+		margin-left: -1em !important;
 	}
 }
 

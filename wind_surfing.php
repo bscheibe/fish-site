@@ -37,9 +37,10 @@ $keywords = "Los Barriles, los barriles windsurfing, vela winsurf, la ventana, e
                 </div>
 
             </article>
-            <article class="grid_8 omega">
+            <article class="grid_wind wind">
               <!-- side-menu -->
               <?php include 'side-menu.inc'; ?>
+              <?php include 'side-menu-try.inc'; ?>
             </article>
           </div>
         </div>

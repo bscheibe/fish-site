@@ -41,7 +41,8 @@
 .grid_21,
 .grid_22,
 .grid_23,
-.grid_24 {
+.grid_24,
+.grid_wind {
 	display:inline;
 	float: left;
 	position: relative;
@@ -57,6 +58,10 @@
 }
 
 .omega {
+	margin-right: 0;
+}
+
+.wind {
 	margin-right: 0;
 }
 
@@ -93,6 +98,10 @@
 
 .container_24 .grid_8 {
 	width:310px;
+}
+
+.grid_wind {
+	width: 310px;
 }
 
 .container_24 .grid_9 {

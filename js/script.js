@@ -71,6 +71,14 @@ $(document).ready(function() {
 		Cufon.refresh();
 	});
 
+	$(".sm_box").hover(function(){
+		$(this).addClass("alt");
+		Cufon.refresh();
+	}, function(){
+		$(this).removeClass("alt");
+		Cufon.refresh();
+	});
+
 	$('.list-services li a').hover(function(){
 			$(this).stop(true,false).animate({marginTop:"-8px"}, {easing:"easeOutBounce", duration: 500});
 			$(this).css('paddingBottom','8px');

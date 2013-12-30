@@ -22,7 +22,7 @@ $keywords = "Los Barriles activites, los barriles hotel, fishing, marlin, rooste
                 <br>
                 <br>
 
-                <div class="wrapper">
+                <div class="pic_wrapper">
                   <div class="col-1">
                     <figure class="indent-bot frame"><img src="images/acts-fishing.jpg" alt=""/></figure>
                     <h6>World Class Fishing</h6>
@@ -43,7 +43,7 @@ $keywords = "Los Barriles activites, los barriles hotel, fishing, marlin, rooste
                 </div>
                 <br>
 
-                <div class="wrapper margin-bot">
+                <div class="pic_wrapper margin-bot">
                   <div class="col-1">
                     <figure class="indent-bot frame"><img src="images/acts-snorkel.jpg" alt=""/></figure>
                     <h6>Snorkeling / Diving</h6>

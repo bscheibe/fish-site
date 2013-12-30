@@ -1,4 +1,4 @@
-<div class="suf">
+<div class="new_suf">
   <div class="box">
     <div class="wrapper">
       <figure class="img-indent3 frame"><img src="images/thumb-contact-us.jpg" alt=""/></figure>

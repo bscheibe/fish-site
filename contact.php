@@ -15,7 +15,12 @@ $keywords = "Los Barriles, los barriles hotel contact info, fishing, marlin, roo
           <div class="wrapper">
             <article class="grid_16 alpha">
               <div class="pref">
-                <h2><strong>CONTACT</strong> INFORMATION</h2>
+                <div class="contact_txt">
+                  <h2 class="no_bottom"><strong>CONTACT</strong></h2>
+                </div>
+                <div class="info_txt">
+                  <h2>INFORMATION</h2>
+                </div>
 
                 <div class="wrapper p3">
 

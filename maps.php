@@ -12,11 +12,15 @@ $keywords = "Los Barriles map, east cape map, cabo airport map, baja east cape r
     <div class="main">
       <div class="container_24">
         <div class="bg-2">
-          <div class="wrapper">
+          <div class="wrapper border-act">
             <article class="grid_16 alpha">
               <div class="pref">
-                <h2><strong>MAP</strong> and TRANSPORTATION</h2>
-
+                <div class="map_and">
+                  <h2 class="no_bottom"><strong>MAP</strong> and</h2>
+                </div>
+                <div class="transpo">
+                  <h2>TRANSPORTATION</h2>
+                </div>
                 <div class="wrapper img-indent-bot">
 
                   <div class="lrg-extra-wrap">

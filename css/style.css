@@ -151,7 +151,7 @@ p {margin-bottom:18px;}
 .indent-bot3 {margin-bottom:45px;}
 
 .img-indent-bot {margin-bottom:25px;}
-.img-indent {float:left; margin:0 25px 0px 0;}	
+.img-indent {float:left; margin:0 25px 0px 0;}		
 .img-indent2 {float:left; margin:0 18px 0px 0;}	
 .img-indent3 {float:left; margin:0 10px 0px 0;}	
 .img-indent-r {float:right; margin:0 0px 0px 40px;}	
@@ -838,6 +838,14 @@ footer {
 	display: none;
 }
 
+.no_bottom {
+	margin-bottom: 0em !important;
+}
+
+.margin-bottom-0 {
+	margin-bottom: 1.5em !important;
+}
+
 /*------ Breakpoint #0 for Website ------*/
 
 
@@ -1038,6 +1046,9 @@ footer {
 	.img-indent {
 		margin: 0 0 2em 4em !important;
 	}
+	.margin_rm {
+		margin-left: 6em !important;
+	}
 	h2 {
 		width: 300px !important;
 	}
@@ -1054,6 +1065,7 @@ footer {
 	.bg-2 {
 	width:400px; 
 	margin:2em auto 0 auto;
+	text-align: center;
 	}
 	.extra-wrap {
 		width: 300px !important;
@@ -1069,7 +1081,7 @@ footer {
 	}
 	.pic_wrapper {
 		width: 300px !important;
-		margin-left: 6em !important;
+		margin-left: 7em !important;
 	}
 	.wrapper_middle {
 		width: 250px !important;
@@ -1102,6 +1114,46 @@ footer {
 	.no_second {
 		display: none !important;
 	}
+	.hotel_rooms {
+		width: auto;
+		margin-left: 2.5em !important;
+	}
+	.rv_park {
+		width: auto;
+		margin-left: 2.5em !important;
+		margin-bottom: 0 !important;	
+	}
+	.campground {
+		width: auto;
+		margin-left: 2.5em !important;
+	}
+	.contact_txt {
+		width: auto;
+		margin-left: 2em !important;
+	}
+	.info_txt {
+		width: auto;
+		margin-left: 2em !important;
+	}
+	.map_and {
+		width: auto;
+		margin-left: 2em !important;
+	}
+	.transpo {
+		width: auto;
+		margin-left: 2em !important;
+	}
+	.fun_sun {
+		width: auto;
+		margin-left: 2.5em !important;	
+	}
+	.enjoy {
+		width: 200px;
+		margin-left: 6.5em !important;
+	}
+	.margin-bottom {
+		margin-bottom: 1.5em !important;
+	}
 }
 
 /*------ Breakpoint #3 for Website ------*/
@@ -1118,7 +1170,7 @@ footer {
 	.map-extra-wrap {
 		display: block !important;
 		width: 300px !important;
-		margin: 1em 0 1em 0 !important;
+		margin: 1em 0 1em -1em !important;
 	}
 	.main {
 		width: 380px !important; 	
@@ -1177,6 +1229,9 @@ footer {
 	.img-indent {
 		margin: 0 0 1.5em 0.75em !important;
 	}
+	.margin_rm {
+		margin-left: 2.5em !important;
+	}
 	.list-1 li {
 		font-size: 1em !important;
 	}
@@ -1200,7 +1255,11 @@ footer {
 	.head_1 {
 		display: none !important;
 	}
-
+	.border-act {
+		width:100%; 
+		padding-bottom:10px; 
+		background:url(../images/pic-3.gif) 0 bottom repeat-x;
+	}
 	.head_2 {
 		display: none !important;
 	}
@@ -1227,6 +1286,44 @@ footer {
 	}
 	.bg_bottom .wrapper {
 		margin-left: -1em !important;
+	}
+	.hotel_rooms {
+		width: auto;
+		margin-left: -1em !important;
+	}
+	.rv_park {
+		width: auto;
+		margin-left: -1em !important;
+		margin-bottom: 0 !important;
+		margin-top: 1em !important;	
+	}
+	.contact_txt {
+		width: auto;
+		margin-left: -1em !important;
+	}
+	.info_txt {
+		width: auto;
+		margin-left: -1em !important;
+	}
+	.campground {
+		width: auto;
+		margin-left: -1em !important;
+	}
+	.map_and {
+		width: auto;
+		margin-left: -1em !important;
+	}
+	.transpo {
+		width: auto;
+		margin-left: -1em !important;
+	}
+	.fun_sun {
+		width: auto;
+		margin-left: -1em !important;	
+	}
+	.enjoy {
+		width: 200px;
+		margin-left: 2em !important;
 	}
 }
 

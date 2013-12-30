@@ -32,6 +32,9 @@ $keywords = "Los Barriles, los barriles hotel fishing, fishing, marlin, rooster 
                   <h4>--Packages below are for 4 nights. Please call about 3 night packages.--</h4>
                   </div>
                   <br>
+                  <div class="second_yes">
+                  <br>
+                  </div>
                   <h4>Sport Fishing Package for 4 Persons</h4>
                   Package Includes:<br>
 

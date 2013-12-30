@@ -12,12 +12,14 @@ $keywords = "Los Barriles, los barriles windsurfing, vela winsurf, la ventana, e
     <div class="main">
       <div class="container_24">
         <div class="bg-2">
-          <div class="wrapper">
+          <div class="wrapper border-act">
             <article class="grid_16 alpha">
               <div class="pref">
-                <h2><strong>WINDSURFING</strong> and KITE BOARDING</h2>
+                <div class="wind_kite">
+                  <h2><strong>WINDSURFING</strong> and KITE BOARDING</h2>
+                </div>
 
-                <div class="wrapper img-indent-bot">
+                <div class="wrapper">
 
                   <div class="extra-wrap">
                     <h4>WINDSURFING AND KITE BOARDING ON THE EAST CAPE (LOS BARRILES)</h4>The water temperature is 70 to 80 degrees with a clear turquoise color inside and deep blue outside. November warmer 80 to 90 degree days with cool nights. Winter months December - January 70 to 80 daytime and some nights can be cold, 40 to 50 degrees. March 80 to 90 degrees.

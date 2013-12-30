@@ -81,6 +81,10 @@ a:hover {text-decoration:none;}
 .col-1 {width:176px; margin-right:30px;}
 .col-2 {width:176px;}
 
+.wrapper_fp {
+	width:100%; 
+	overflow:hidden;
+}
 .wrapper {width:100%; overflow:hidden;}
 .pic_wrapper {width:100%; overflow:hidden;}
 .side_wrapper {
@@ -846,6 +850,10 @@ footer {
 	margin-bottom: 1.5em !important;
 }
 
+.second_yes {
+	display: none;
+}
+
 /*------ Breakpoint #0 for Website ------*/
 
 
@@ -957,6 +965,9 @@ footer {
 		width: 500px !important;
 	}
 	.wrapper {
+		width: 600px !important;
+	}
+	.wrapper_fp {
 		width: 600px !important;
 	}
 	.pic_wrapper {
@@ -1079,6 +1090,11 @@ footer {
 	.wrapper {
 		width: 400px !important;
 	}
+	.wrapper_fp {
+		width: 350px !important;
+		text-align: left !important;
+		margin-left: 1em !important;
+	}
 	.pic_wrapper {
 		width: 300px !important;
 		margin-left: 7em !important;
@@ -1154,6 +1170,27 @@ footer {
 	.margin-bottom {
 		margin-bottom: 1.5em !important;
 	}
+	.wind_kite {
+		width: auto;
+		margin-left: 2.5em !important;
+	}
+	.fish_img {
+		margin-left: 5em !important;
+	}
+	.intro_fish {
+		text-align: center !important;
+		margin-left: 1em !important;
+	}
+	.fish_pkg {
+		width: auto;
+		margin-left: 2.5em !important;
+	}
+	.second_yes {
+		display: block;
+	}
+	.head_fish_sm {
+		text-align: center;
+	}
 }
 
 /*------ Breakpoint #3 for Website ------*/
@@ -1195,6 +1232,11 @@ footer {
     	width: 300px !important;
     	margin: 0 0 0 2.5em !important;
     }
+    .wrapper_fp {
+		width: 285px !important;
+		text-align: left !important;
+		margin-left: 0em !important;
+	}
     .wrapper_bottom {
 		width: 200px !important;
 		margin: 0 0 0 0 !important;
@@ -1324,6 +1366,24 @@ footer {
 	.enjoy {
 		width: 200px;
 		margin-left: 2em !important;
+	}
+	.wind_kite {
+		width: auto;
+		margin-left: -1em !important;
+	}
+	.fish_img {
+		margin-left: 2.5em !important;
+	}
+	.intro_fish {
+		text-align: center !important;
+		margin-left: 0.75em !important;
+	}
+	.fish_pkg {
+		width: auto;
+		margin-left: -1em !important;
+	}
+	.head_fish_sm {
+		width: 280px !important;
 	}
 }
 

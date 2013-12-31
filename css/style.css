@@ -1234,6 +1234,19 @@ footer {
 	.third_pics {
 		display: block !important;
 	}
+	.carousel {
+		width:280px;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	.gallery {
+		margin: 0 !important;
+	}
+	.jCarouselLite {
+		width:280px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
 	.third_pics h1 {
 		width: 220px !important;
 		font-size: 1.5em !important;
@@ -1258,16 +1271,16 @@ footer {
 		margin: 1em 0 1em -1em !important;
 	}
 	.main {
-		width: 380px !important; 	
+		width: 320px !important; 	
 	}
 	.title_logo {
-		font-size: 40px;
-		margin-left: 0.25em;
+		font-size: 35px;
+		margin-left: 0em !important;
 	}
 	.open {
 		width: 40px !important;
 		height: 30px !important;
-    	margin: 0.5em 0 0 1em !important;
+    	margin: 0.35em 0 0 1em !important;
     }
 	.row-1 {
 		display: none;
@@ -1291,7 +1304,7 @@ footer {
 		padding: 0 0 0 0 !important;
 	}
 	.s_web_title {
-		width: 365px !important;
+		width: 300px !important;
 	}
 	.bg {
 	width:305px; 

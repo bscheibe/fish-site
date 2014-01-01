@@ -1496,7 +1496,7 @@ footer {
 		margin-left: auto !important;
 		margin-right: auto !important;
 	}
-	.third_pics h1 {
+	.fourth_pics h1 {
 		width: 220px !important;
 		font-size: 1.5em !important;
 		margin-bottom: 1em !important;
@@ -1504,12 +1504,13 @@ footer {
 		text-align: center;
 		margin-left: 1.25em !important;
 	}
-	.third_pics img {
+	.fourth_pics img {
 		margin-bottom: 1.5em !important;
+		margin-left: 1.5em !important;
 		border: 3px outset #ccc;
 	}
 	.pic_wrapper {
-		margin-left: 3em !important;
+		margin-left: 3.75em !important;
 	}
 	.margin-top {
 		margin-top: 2em !important;
@@ -1555,9 +1556,9 @@ footer {
     	margin: 0 0 0 2.5em !important;
     }
     .wrapper_fp {
-		width: 285px !important;
+		width: 240px !important;
 		text-align: left !important;
-		margin-left: 0em !important;
+		margin-left: 1.75em !important;
 	}
     .wrapper_bottom {
 		width: 200px !important;
@@ -1579,17 +1580,19 @@ footer {
 	background:#fcfcfc;
 	}
 	.bg-2 {
-	width:305px; 
+	width:270px; 
 	margin:0 auto 0 auto;
 	background:#fcfcfc;
 	}
 	.extra-wrap {
 		width: 225px !important;
-		margin: 0 0 0 2.25em !important;
-		font-size: 1em !important;
+		margin: 0 0 0 1.75em !important;
+		font-size: 1.25em !important;
 	}
 	.lrg-extra-wrap {
-		width: 260px !important;
+		width: 230px !important;
+		margin-left: 1.25em !important;
+
 	}
 	.wrapper {
 		width: 270px !important;
@@ -1658,33 +1661,33 @@ footer {
 	}
 	.hotel_rooms {
 		width: auto;
-		margin-left: -1em !important;
+		margin-left: -1.25em !important;
 	}
 	.rv_park {
 		width: auto;
-		margin-left: -1em !important;
+		margin-left: -1.25em !important;
 		margin-bottom: 0 !important;
 		margin-top: 1em !important;	
 	}
 	.contact_txt {
 		width: auto;
-		margin-left: -1em !important;
+		margin-left: -1.25em !important;
 	}
 	.info_txt {
 		width: auto;
-		margin-left: -1em !important;
+		margin-left: -1.25em !important;
 	}
 	.campground {
 		width: auto;
-		margin-left: -1em !important;
+		margin-left: -1.25em !important;
 	}
 	.map_and {
 		width: auto;
-		margin-left: -1em !important;
+		margin-left: -1.25em !important;
 	}
 	.transpo {
 		width: auto;
-		margin-left: -1em !important;
+		margin-left: -1.25em !important;
 	}
 	.fun_sun {
 		width: auto;
@@ -1692,29 +1695,30 @@ footer {
 	}
 	.enjoy {
 		width: 200px;
-		margin-left: 2em !important;
+		margin-left: 2.75em !important;
 	}
 	.wind_kite {
 		width: auto;
 		margin-left: -1em !important;
 	}
 	.fish_img {
-		margin-left: 2.5em !important;
+		margin-left: 0.75em !important;
 	}
 	.intro_fish {
 		text-align: center !important;
-		margin-left: 0.75em !important;
+		margin-left: 0em !important;
 	}
 	.fish_pkg {
 		width: auto;
 		margin-left: -1em !important;
 	}
 	.head_fish_sm {
-		width: 280px !important;
+		margin-left: 1em !important;
+		width: 200px !important;
 	}
 	.fun_pics {
 		width: auto;
-		margin-left: -1em !important;
+		margin-left: -1.25em !important;
 	}
 	.sm_head_1,
 	.sm_head_2 {

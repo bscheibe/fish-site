@@ -58,8 +58,11 @@ $keywords = "Los Barriles, los barriles hotel contact info, fishing, marlin, roo
                       <a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=23.69735,-109.692993&amp;daddr=&amp;hl=en&amp;geocode=&amp;mra=mift&amp;mrsp=0&amp;sz=10&amp;sll=23.509849,-110.059662&amp;sspn=0.964612,1.665802&amp;ie=UTF8&amp;t=m&amp;ll=23.684774,-109.753418&amp;spn=0.754566,0.823975&amp;z=9" style="color:#0000FF;text-align:left">View Larger Map</a>
                     </small>
                   </div>
-                  <div class="map-extra-wrap no_basic">
+                  <div class="map-extra-wrap no_basic no_iphone">
                     <iframe width="275" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=23.69735,-109.692993&amp;daddr=&amp;hl=en&amp;geocode=&amp;mra=mift&amp;mrsp=0&amp;sz=10&amp;sll=23.509849,-110.059662&amp;sspn=0.964612,1.665802&amp;ie=UTF8&amp;t=m&amp;ll=23.684774,-109.753418&amp;spn=0.754566,0.752563&amp;z=9&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=23.69735,-109.692993&amp;daddr=&amp;hl=en&amp;geocode=&amp;mra=mift&amp;mrsp=0&amp;sz=10&amp;sll=23.509849,-110.059662&amp;sspn=0.964612,1.665802&amp;ie=UTF8&amp;t=m&amp;ll=23.684774,-109.753418&amp;spn=0.754566,0.752563&amp;z=9" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                  </div>
+                  <div class="map-extra-wrap yes_iphone">
+                    <iframe width="225" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=23.69735,-109.692993&amp;daddr=&amp;hl=en&amp;geocode=&amp;mra=mift&amp;mrsp=0&amp;sz=10&amp;sll=23.509849,-110.059662&amp;sspn=0.964612,1.665802&amp;ie=UTF8&amp;t=m&amp;ll=23.594194,-109.940186&amp;spn=2.013498,2.460938&amp;z=7&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=23.69735,-109.692993&amp;daddr=&amp;hl=en&amp;geocode=&amp;mra=mift&amp;mrsp=0&amp;sz=10&amp;sll=23.509849,-110.059662&amp;sspn=0.964612,1.665802&amp;ie=UTF8&amp;t=m&amp;ll=23.594194,-109.940186&amp;spn=2.013498,2.460938&amp;z=7" style="color:#0000FF;text-align:left">View Larger Map</a></small>
                   </div>
                 </div>
 

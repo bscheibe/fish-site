@@ -96,7 +96,7 @@ $keywords = "Los Barriles, los barriles photos, east cape fishing photos, marlin
                       <img src="images/photos-jack.jpg" alt="Jack Crevalle East Cape" width="365" height="243"/>
                     </div>
                 </div>
-                <div class="third_pics">
+                <div class="third_pics no_iphone">
                   <div>
                       <h1>Dogtooth Snapper</h1>
                       <img src="images/photos-dogtooth.jpg" alt="Dogtooth Snapper" width="265" height="176"/>
@@ -132,6 +132,44 @@ $keywords = "Los Barriles, los barriles photos, east cape fishing photos, marlin
                     <div>
                       <h1>Jack Crevalle</h1>
                       <img src="images/photos-jack.jpg" alt="Jack Crevalle East Cape" width="265" height="176"/>
+                    </div>
+                </div>
+                <div class="fourth_pics yes_iphone">
+                  <div>
+                      <h1>Dogtooth Snapper</h1>
+                      <img src="images/photos-dogtooth.jpg" alt="Dogtooth Snapper" width="225" height="150"/>
+                    </div>
+                    <div>
+                      <h1>Striped Marlin</h1>
+                      <img src="images/photos-jumpingmarlin.jpg" alt="Jumping Marlin" width="225" height="150" />
+                    </div>
+                    <div>
+                      <h1>Tuna</h1>
+                      <img src="images/photos-tuna.jpg" alt="Tuna Martin Verdugos" width="225" height="150"/>
+                    </div>
+                    <div>
+                      <h1>Wahoo</h1>
+                      <img src="images/photos-bigwahoo.jpg" alt="Wahoo East Cape" width="225" height="150"/>
+                    </div>
+                    <div>
+                      <h1>Dorado</h1>
+                      <img src="images/photos-dorado.jpg" alt="Dorado East Cape" width="225" height="150"/>
+                    </div>
+                    <div>
+                      <h1>Jumping Dorado</h1>
+                      <img src="images/photos-jumpingdorado.jpg" alt="Jumping Dorado East Cape" width="225" height="150"/>
+                    </div>
+                    <div>
+                      <h1>Whoops Tuna!</h1>
+                      <img src="images/photos-jumpingtuna.jpg" alt="Jumping Tuna East Cape" width="225" height="150"/>
+                    </div>
+                    <div>
+                      <h1>Roosterfish</h1>
+                      <img src="images/photos-roosterfish.jpg" alt="Roosterfish East Cape" width="225" height="150"/>
+                    </div>
+                    <div>
+                      <h1>Jack Crevalle</h1>
+                      <img src="images/photos-jack.jpg" alt="Jack Crevalle East Cape" width="225" height="150"/>
                     </div>
                 </div>
                 <div class="wrapper p3">

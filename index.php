@@ -20,8 +20,12 @@ $keywords = "Los Barriles, los barriles hotel, fishing, marlin, rooster fish, wa
                 <div class="head_2"><h2>Verdugo's Beach Resort!</h2></div>
                 <div class="sm_head_1"><h3><strong>Welcome</strong> to Martin</h3></div>
                 <div class="sm_head_2"><h3>Verdugo's Beach Resort!</h3></div>
+                <div class="xsm_head_1"><h3 class="no_bottom"><strong>Welcome</strong> to</h3></div>
+                <div class="xsm_head_2"><h3 class="no_bottom">Martin Verdugo's</h3></div>
+                <div class="xsm_head_3"><h3>Beach Resort!</h3></div>
                 <div class="wrapper img-indent-bot">
-                  <figure class="img-indent frame"><img src="images/page1-hotel.jpg" alt=""/></figure>
+                  <figure class="img-indent frame no_iphone"><img src="images/page1-hotel.jpg" alt=""/></figure>
+                  <figure class="img-indent frame yes_iphone"><img src="images/page1-hotel.jpg" alt="" width="225" height="175" /></figure>
                   <div class="extra-wrap">
                     Located right on the beach in <a href="http://www.verdugosbeachresort.com/los_barriles.php">Los Barriles</a>, Martin Verdugo's is a great place to enjoy the Sea of Cortez. Still family run by the Verugo family, the hotel caters to fishermen, wind surfers, divers, and travelers just looking for a nice place to relax.
                     <p>

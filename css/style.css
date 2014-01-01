@@ -862,6 +862,16 @@ footer {
 	display: none;
 }
 
+.xsm_head_1,
+.xsm_head_2,
+.xsm_head_3 {
+	display: none;
+}
+
+.yes_iphone {
+	display: none;
+}
+
 /*------ Breakpoint #0 for Website ------*/
 
 
@@ -1225,25 +1235,264 @@ footer {
 
 /*------ Breakpoint #3 for Website ------*/
 @media only screen and (max-width: 505px) {
-	.no_third {
-		display: none !important;
-	}
+        .no_third {
+                display: none !important;
+        }
+        .second_pics {
+                display: none !important;
+        }
+        .third_pics {
+                display: block !important;
+        }
+        .carousel {
+                width:280px;
+                margin-left: auto !important;
+                margin-right: auto !important;
+        }
+        .gallery {
+                margin: 0 !important;
+        }
+        .jCarouselLite {
+                width:280px !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+        }
+        .third_pics h1 {
+                width: 220px !important;
+                font-size: 1.5em !important;
+                margin-bottom: 1em !important;
+                text-transform:uppercase;
+                text-align: center;
+                margin-left: 1.25em !important;
+        }
+        .third_pics img {
+                margin-bottom: 1.5em !important;
+                border: 3px outset #ccc;
+        }
+        .pic_wrapper {
+                margin-left: 3em !important;
+        }
+        .margin-top {
+                margin-top: 2em !important;
+        }
+        .map-extra-wrap {
+                display: block !important;
+                width: 300px !important;
+                margin: 1em 0 1em -1em !important;
+        }
+        .main {
+                width: 320px !important;         
+        }
+        .title_logo {
+                font-size: 35px;
+                margin-left: 0em !important;
+        }
+        .open {
+                width: 40px !important;
+                height: 30px !important;
+            margin: 0.35em 0 0 1em !important;
+    }
+        .row-1 {
+                display: none;
+        }
+        .grid_16 {
+            width: 170px !important;
+            margin: 0 0 0 0 !important;
+    }
+    .grid_8 {
+            width: 300px !important;
+            margin: 0 0 0 2.5em !important;
+    }
+    .wrapper_fp {
+                width: 285px !important;
+                text-align: left !important;
+                margin-left: 0em !important;
+        }
+    .wrapper_bottom {
+                width: 200px !important;
+                margin: 0 0 0 0 !important;
+                padding: 0 0 0 0 !important;
+        }
+        .s_web_title {
+                width: 300px !important;
+        }
+        .bg {
+        width:305px; 
+        margin:0 auto 0 auto;
+        padding:25px 0 0;
+        background:#fcfcfc;
+        }
+        .bg-2 {
+        width:305px; 
+        margin:0 auto 0 auto;
+        background:#fcfcfc;
+        }
+        .extra-wrap {
+                width: 250px !important;
+                margin: 0 0 0 1em !important;
+                font-size: 1em !important;
+        }
+        .lrg-extra-wrap {
+                width: 260px !important;
+        }
+        .wrapper {
+                width: 305px !important;
+                margin-bottom: 0 !important;
+        }
+        .img-indent {
+                margin: 0 0 1.5em 0.75em !important;
+        }
+        .margin_rm {
+                margin-left: 2.5em !important;
+        }
+        .list-1 li {
+                font-size: 1em !important;
+        }
+        .wrapper_middle {
+                width: 225px !important;
+                margin-left: 1.5em !important;
+                margin-bottom: 0 !important;
+                border: none !important;
+        }
+        .grid_6 {
+                width: 200px !important;
+        }
+        /*.border-bot {
+                background: none;
+        }*/
+        .p3 {
+                margin-bottom: 1em !important;
+                padding-bottom: 0 !important;
+                border: none !important;
+        }
+        .head_1 {
+                display: none !important;
+        }
+        .border-act {
+                width:100%; 
+                padding-bottom:10px; 
+                background:url(../images/pic-3.gif) 0 bottom repeat-x;
+        }
+        .head_2 {
+                display: none !important;
+        }
+
+        .sm_head_1 {
+                width: 225px !important;
+                height: 30px !important;
+                margin: 0 0 0 2.25em !important;
+                display: block !important;
+        }
+
+        .sm_head_2 {
+                width: 275px !important;
+                height: 30px !important;
+                margin: 0 0 1em 0.05em !important;
+                display: block !important;
+        }
+        .bg_bottom {
+                width:305px; 
+                padding-top: 0 !important;
+        }
+        .grid_6 {
+                margin-bottom: 1em !important;
+        }
+        .bg_bottom .wrapper {
+                margin-left: -1em !important;
+        }
+        .hotel_rooms {
+                width: auto;
+                margin-left: -1em !important;
+        }
+        .rv_park {
+                width: auto;
+                margin-left: -1em !important;
+                margin-bottom: 0 !important;
+                margin-top: 1em !important;        
+        }
+        .contact_txt {
+                width: auto;
+                margin-left: -1em !important;
+        }
+        .info_txt {
+                width: auto;
+                margin-left: -1em !important;
+        }
+        .campground {
+                width: auto;
+                margin-left: -1em !important;
+        }
+        .map_and {
+                width: auto;
+                margin-left: -1em !important;
+        }
+        .transpo {
+                width: auto;
+                margin-left: -1em !important;
+        }
+        .fun_sun {
+                width: auto;
+                margin-left: -1em !important;        
+        }
+        .enjoy {
+                width: 200px;
+                margin-left: 2em !important;
+        }
+        .wind_kite {
+                width: auto;
+                margin-left: -1em !important;
+        }
+        .fish_img {
+                margin-left: 2.5em !important;
+        }
+        .intro_fish {
+                text-align: center !important;
+                margin-left: 0.75em !important;
+        }
+        .fish_pkg {
+                width: auto;
+                margin-left: -1em !important;
+        }
+        .head_fish_sm {
+                width: 280px !important;
+        }
+        .fun_pics {
+                width: auto;
+                margin-left: -1em !important;
+        }
+}
+
+
+/*------ Breakpoint for iPhone for Website ------*/
+@media only screen and (max-width: 350px) {
 	.second_pics {
 		display: none !important;
 	}
 	.third_pics {
 		display: block !important;
 	}
+	.yes_iphone {
+		display: block;
+	}
 	.carousel {
-		width:280px;
+		width:225px;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		padding: 20px !important;
+	}
+	.prev,
+	.next {
+		top: 110px !important;
+	}
+	.gallery {
+		width: 225px !important;
+		height: 225px !important;
+		margin: 0 !important;
 		margin-left: auto !important;
 		margin-right: auto !important;
 	}
-	.gallery {
-		margin: 0 !important;
-	}
 	.jCarouselLite {
-		width:280px !important;
+		width:225px !important;
 		margin-left: auto !important;
 		margin-right: auto !important;
 	}
@@ -1270,17 +1519,29 @@ footer {
 		width: 300px !important;
 		margin: 1em 0 1em -1em !important;
 	}
+	.pref {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
 	.main {
-		width: 320px !important; 	
+		width: 320px !important;
+		margin-left: auto !important;
+		margin-right: auto !important; 	
+	}
+	.container_24 {
+		width: 275px !important;
+	}
+	.no_iphone {
+		display: none !important;
 	}
 	.title_logo {
-		font-size: 35px;
-		margin-left: 0em !important;
+		font-size: 28px;
+		margin-left: 0.15em !important;
 	}
 	.open {
 		width: 40px !important;
 		height: 30px !important;
-    	margin: 0.35em 0 0 1em !important;
+    	margin: 0.2em 0 0 1em !important;
     }
 	.row-1 {
 		display: none;
@@ -1304,10 +1565,15 @@ footer {
 		padding: 0 0 0 0 !important;
 	}
 	.s_web_title {
-		width: 300px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		width: 259px !important;
+	}
+	.grid_24 {
+		width: 225px !important;
 	}
 	.bg {
-	width:305px; 
+	width:270px; 
 	margin:0 auto 0 auto;
 	padding:25px 0 0;
 	background:#fcfcfc;
@@ -1318,19 +1584,19 @@ footer {
 	background:#fcfcfc;
 	}
 	.extra-wrap {
-		width: 250px !important;
-		margin: 0 0 0 1em !important;
+		width: 225px !important;
+		margin: 0 0 0 2.25em !important;
 		font-size: 1em !important;
 	}
 	.lrg-extra-wrap {
 		width: 260px !important;
 	}
 	.wrapper {
-		width: 305px !important;
+		width: 270px !important;
 		margin-bottom: 0 !important;
 	}
 	.img-indent {
-		margin: 0 0 1.5em 0.75em !important;
+		margin: 0 0 1.5em 1.5em !important;
 	}
 	.margin_rm {
 		margin-left: 2.5em !important;
@@ -1340,7 +1606,7 @@ footer {
 	}
 	.wrapper_middle {
 		width: 225px !important;
-		margin-left: 1.5em !important;
+		margin-left: 2em !important;
 		margin-bottom: 0 !important;
 		border: none !important;
 	}
@@ -1381,14 +1647,14 @@ footer {
 		display: block !important;
 	}
 	.bg_bottom {
-		width:305px; 
+		width:270px !important; 
 		padding-top: 0 !important;
 	}
 	.grid_6 {
 		margin-bottom: 1em !important;
 	}
 	.bg_bottom .wrapper {
-		margin-left: -1em !important;
+		margin-left: 0em !important;
 	}
 	.hotel_rooms {
 		width: auto;
@@ -1449,6 +1715,25 @@ footer {
 	.fun_pics {
 		width: auto;
 		margin-left: -1em !important;
+	}
+	.sm_head_1,
+	.sm_head_2 {
+		display: none !important;
+	}
+	.xsm_head_1 {
+		width: 140px;
+		margin-left: 5em !important;
+		display: block !important;
+	}
+	.xsm_head_2 {
+		width: 200px;
+		margin-left: 3em !important;
+		display: block !important;
+	}
+	.xsm_head_3 {
+		width: 160px;
+		margin-left: 4.25em !important;
+		display: block !important;
 	}
 }
 

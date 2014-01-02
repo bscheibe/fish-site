@@ -1207,6 +1207,22 @@ footer {
 		width: auto;
 		margin-left: 3em !important;
 	}
+	/* HERE */
+	.los_bar {
+		display: block;
+		width: auto;
+		margin-left: 2.5em !important;
+	}
+	.info_bar {
+		display: block;
+		width: auto;
+		margin-left: 2.5em !important;
+	}
+	.baja {
+		display: block;
+		width: auto;
+		margin-left: 2.5em !important;
+	}
 	.second_yes {
 		display: block;
 	}
@@ -1453,6 +1469,29 @@ footer {
                 width: auto;
                 margin-left: -1em !important;
         }
+        /* HERE */
+        .los_bar {
+			width: auto;
+			margin-left: -1em !important;
+		}
+		.info_bar {
+			width: auto;
+			margin-left: -1em !important;
+		}
+		.baja {
+			width: auto;
+			margin-left: -1em !important;
+		}
+		.baja_cal {
+			display: block;
+			width: auto;
+			margin-left: -1em !important;
+		}
+		.sur {
+			display: block;
+			width: auto;
+			margin-left: -1.5em !important;
+		}
         .head_fish_sm {
                 width: 280px !important;
         }
@@ -1738,6 +1777,14 @@ footer {
 		width: 160px;
 		margin-left: 4.25em !important;
 		display: block !important;
+	}
+	.baja_cal {
+		width: auto;
+		margin-left: -1em !important;
+	}
+	.sur {
+		width: auto;
+		margin-left: -1.5em !important;
 	}
 }
 

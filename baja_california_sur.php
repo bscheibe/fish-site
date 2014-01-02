@@ -12,10 +12,18 @@ $keywords = "Baja California Sur, baja california sur region, vela winsurf, la v
     <div class="main">
       <div class="container_24">
         <div class="bg-2">
-          <div class="wrapper">
+          <div class="wrapper border-act">
             <article class="grid_16 alpha">
               <div class="pref">
-                <h2><strong>BAJA</strong> CALIFORNIA SUR</h2>
+                <div class="baja no_third">
+                  <h2><strong>BAJA</strong> CALIFORNIA SUR</h2>
+                </div>
+                <div class="baja_cal no_basic">
+                  <h2 class="no_bottom"><strong>BAJA</strong> CALIFORNIA</h2>
+                </div>
+                <div class="sur no_basic">
+                  <h2>SUR</h2>
+                </div>
 
                 <div class="wrapper img-indent-bot">
 
@@ -47,9 +55,10 @@ $keywords = "Baja California Sur, baja california sur region, vela winsurf, la v
                 </div>
 
             </article>
-            <article class="grid_8 omega">
+            <article class="grid_wind wind">
               <!-- side-menu -->
               <?php include 'side-menu.inc'; ?>
+              <?php include 'side-menu-try.inc'; ?>
             </article>
           </div>
         </div>

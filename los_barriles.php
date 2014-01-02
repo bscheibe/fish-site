@@ -12,10 +12,18 @@ $keywords = "Los Barriles, los barriles windsurfing, vela winsurf, la ventana, e
     <div class="main">
       <div class="container_24">
         <div class="bg-2">
-          <div class="wrapper">
+          <div class="wrapper border-act">
             <article class="grid_16 alpha">
               <div class="pref">
-                <h2><strong>LOS</strong> BARRILES - INFORMATION</h2>
+                <span class="no_second">
+                  <h2><strong>LOS</strong> BARRILES - INFORMATION</h2>
+                </span>
+                <div class="los_bar no_basic">
+                  <h2 class="no_bottom"><strong>LOS</strong> BARRILES</h2>
+                </div>
+                <div class="info_bar no_basic">
+                  <h2>INFORMATION</h2>
+                </div>
 
                 <div class="wrapper img-indent-bot">
 
@@ -47,9 +55,10 @@ $keywords = "Los Barriles, los barriles windsurfing, vela winsurf, la ventana, e
                 </div>
 
             </article>
-            <article class="grid_8 omega">
+            <article class="grid_wind wind">
               <!-- side-menu -->
               <?php include 'side-menu.inc'; ?>
+              <?php include 'side-menu-try.inc'; ?>
             </article>
           </div>
         </div>
